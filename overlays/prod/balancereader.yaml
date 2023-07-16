@@ -11,7 +11,7 @@ spec:
     spec: 
       containers:
       - name: balancereader
-        image: gcr.io/bank-of-anthos-ci/balancereader:v0.5.2
+        image: gcr.io/my-krm/cymbal-bank/release/balancereader:d41f0b6
         env:
         - name: ENABLE_TRACING
           value: "true"

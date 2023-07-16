@@ -11,7 +11,7 @@ spec:
     spec: 
       containers:
       - name: userservice
-        image: gcr.io/bank-of-anthos-ci/userservice:v0.5.2
+        image: gcr.io/my-krm/cymbal-bank/release/userservice:d41f0b6
         env:
         - name: ENABLE_TRACING
           value: "true"

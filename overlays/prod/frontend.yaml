@@ -12,7 +12,7 @@ spec:
     spec: 
       containers:
       - name: front
-        image: gcr.io/bank-of-anthos-ci/frontend:v0.5.2
+        image: gcr.io/my-krm/cymbal-bank/release/frontend:d41f0b6
         env:
         - name: ENABLE_TRACING
           value: "true"
