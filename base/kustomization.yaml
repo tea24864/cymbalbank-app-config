@@ -9,5 +9,5 @@ resources:
 - populate-ledger-db.yaml
 - transactionhistory.yaml
 - userservice.yaml
-- frontend.yaml
 - test-workload.yaml
+- frontend.yaml
